@@ -1,0 +1,479 @@
+@charset "EUC-KR";
+
+
+@media only screen and (max-width : 1920px) {
+	
+.room a{   /*클릭한메뉴 색바꾸기*/
+color:#bd5734;
+font-weight: bold;
+}
+.room a:link{  color:#bd5734; }
+.room a:visited{  color:#bd5734; }
+
+.wrap{
+width:100%;
+
+}
+
+.wrap img{
+width:100%;
+
+position:relative;
+z-index:0;
+}
+
+.bottomdiv{
+margin-top:0px;
+}
+
+
+.mainnameDiv{  
+width:600px;
+height:100px;
+text-align: center;
+color:white;
+position:relative;
+top:-840px;
+left:850px;
+}
+
+
+.mainnameDiv span{
+font-size:55px;
+
+}
+.mainnameDiv h1{
+position:relative;
+font-size:45px;
+top:-8px;
+}
+
+.poin{
+filter: drop-shadow(5px 2px 2px #383838); 
+transition:all .3s ease;
+}
+.poin img{
+width:90px;
+}
+.poin1{
+margin:0; padding:0;
+position:relative;
+width:80px; height:60px;
+top:-700px;
+left:510px;
+
+}
+.poin1:hover {top:-730px;}
+
+.poin2{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-780px;
+left:730px;
+
+}
+.poin2:hover {top:-810px;}
+.poin3{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-770px;
+left:960px;
+
+}
+.poin3:hover {top:-800px;}
+.poin4{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-750px;
+left:1140px;
+
+}
+.poin4:hover {top:-780px;}
+
+.cafe{
+width:100px;
+height:50px;
+color:white;
+font-size:20px;
+position:relative;
+top:-850px;
+left:1480px;
+font-style: italic;
+
+}
+
+.roomtext{
+color:white;
+font-size:20px;
+background-color: gray;
+font-style: italic;
+transition:all .3s ease;
+}
+
+.moon1{
+width:130px;
+position:relative;
+top:-120px;
+left:48px;
+}
+
+
+.moon2{
+width:130px;
+position:relative;
+top:-120px;
+left:48px;
+
+}
+.galaxy1{
+width:140px;
+position:relative;
+top:-120px;
+left:48px;
+
+}
+.galaxy2{
+width:140px;
+position:relative;
+top:-120px;
+left:48px;
+
+}
+.roomtextDiv{
+height:300px;
+}
+/*전체를 묶는 div*/
+.allwrap{
+width:100%;
+height:819px;
+}
+
+
+/* a태그  */
+.roomAtag{color:white;}
+
+.roomAtag:link{color:white;}
+.roomAtag:visited{color:white;}
+.roomAtag:hover{color:white;}
+
+
+
+}
+
+
+
+@media only screen and (max-width : 1600px) {
+
+.room a{   /*클릭한메뉴 색바꾸기*/
+color:#bd5734;
+font-weight: bold;
+}
+.room a:link{  color:#bd5734; }
+.room a:visited{  color:#bd5734; }
+
+
+.wrap img{
+width:100%;
+height:819px;
+position:relative;
+z-index:0;
+}
+
+.bottomdiv{
+margin-top:0px;
+}
+
+
+.mainnameDiv{  
+width:600px;
+text-align: center;
+color:white;
+position:relative;
+top:-700px;
+left:630px;
+}
+
+
+.mainnameDiv span{
+font-size:40px;
+
+}
+.mainnameDiv h1{
+position:relative;
+font-size:32px;
+top:-8px;
+}
+.poin{
+filter: drop-shadow(5px 2px 2px #383838); 
+transition:all .3s ease;
+}
+.poin img{
+width:70px;
+}
+.poin1{
+margin:0; padding:0;
+position:relative;
+width:80px; height:60px;
+top:-580px;
+left:430px;
+
+}
+.poin1:hover {top:-600px;}
+
+.poin2{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-670px;
+left:630px;
+
+}
+.poin2:hover {top:-690px;}
+.poin3{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-690px;
+left:800px;
+
+}
+.poin3:hover {top:-710px;}
+.poin4{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-680px;
+left:900px;
+
+}
+.poin4:hover {top:-700px;}
+
+.cafe{
+width:100px;
+height:50px;
+color:white;
+font-size:17px;
+position:relative;
+top:-770px;
+left:1220px;
+font-style: italic;
+
+}
+
+.roomtext{
+color:white;
+font-size:17px;
+background-color: gray;
+font-style: italic;
+transition:all .3s ease;
+}
+
+.moon1{
+width:110px;
+position:relative;
+top:-95px;
+left:39px;
+}
+
+
+.moon2{
+width:110px;
+position:relative;
+top:-95px;
+left:39px;
+
+}
+.galaxy1{
+width:115px;
+position:relative;
+top:-95px;
+left:39px;
+
+}
+.galaxy2{
+width:115px;
+position:relative;
+top:-95px;
+left:39px;
+
+}
+.roomtextDiv{
+height:300px;
+}
+/*전체를 묶는 div*/
+.allwrap{
+width:100%;
+height:819px;
+}
+
+/* a태그  */
+.roomAtag{color:white;}
+.roomAtag:link{color:white;}
+.roomAtag:visited{color:white;}
+.roomAtag:hover{color:white;}
+
+
+
+}
+
+
+
+@media only screen and (max-width : 1280px) {
+
+.room a{   /*클릭한메뉴 색바꾸기*/
+color:#bd5734;
+font-weight: bold;
+}
+.room a:link{  color:#bd5734; }
+.room a:visited{  color:#bd5734; }
+
+
+.wrap img{
+width:100%;
+height:654px;
+position:relative;
+z-index:0;
+}
+
+.bottomdiv{
+margin-top:0px;
+}
+
+
+.mainnameDiv{  
+width:600px;
+text-align: center;
+color:white;
+position:relative;
+top:-560px;
+left:430px;
+}
+
+
+.mainnameDiv span{
+font-size:26px;
+
+}
+.mainnameDiv h1{
+position:relative;
+top:-8px;
+}
+.poin{
+filter: drop-shadow(5px 2px 2px #383838); 
+transition:all .3s ease;
+}
+.poin img{
+width:60px;
+}
+.poin1{
+margin:0; padding:0;
+position:relative;
+width:80px; height:60px;
+top:-490px;
+left:330px;
+
+}
+.poin1:hover {top:-510px;}
+
+.poin2{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-580px;
+left:500px;
+
+}
+.poin2:hover {top:-600px;}
+.poin3{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-600px;
+left:650px;
+
+}
+.poin3:hover {top:-620px;}
+.poin4{
+margin:0; padding:0;
+width:80px; height:60px;
+position:relative;
+top:-610px;
+left:730px;
+
+}
+.poin4:hover {top:-630px;}
+
+.cafe{
+width:100px;
+height:50px;
+color:white;
+font-size:17px;
+position:relative;
+top:-700px;
+left:960px;
+font-style: italic;
+
+}
+
+.roomtext{
+color:white;
+font-size:14px;
+background-color: gray;
+font-style: italic;
+transition:all .3s ease;
+}
+
+.moon1{
+width:90px;
+position:relative;
+top:-83px;
+left:37px;
+}
+
+
+.moon2{
+width:90px;
+position:relative;
+top:-83px;
+left:37px;
+
+}
+.galaxy1{
+width:99px;
+position:relative;
+top:-83px;
+left:37px;
+
+}
+.galaxy2{
+width:95px;
+position:relative;
+top:-83px;
+left:37px;
+
+}
+.roomtextDiv{
+height:300px;
+}
+/*전체를 묶는 div*/
+.allwrap{
+width:100%;
+height:654px;
+}
+
+/* a태그  */
+.roomAtag{color:white;}
+.roomAtag:link{color:white;}
+.roomAtag:visited{color:white;}
+.roomAtag:hover{color:white;}
+
+
+
+}
+
+
+
+
